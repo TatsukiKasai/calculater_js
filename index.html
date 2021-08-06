@@ -18,39 +18,39 @@
             
             <tr>
               <td colspan="3">
-                <input type="button" value="AC" class="AC" onclick="get_calc(this)">
+                <input type="button" value="AC" class="AC" onclick=update();>
               </td>
               <td>
-                <input type="button" value="/" onclick="get_calc(this)">
+                <input type="button" value="/" onclick=calculation(this);>
               </td>
             </tr>
             
            <tr>
-              <td><input type= "button" value="7" onclick="get_calc(this)"></td>
-              <td><input type= "button" value="8" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="9" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="*" onclick="get_calc(this)"></td>
+              <td><input type= "button" value="7" onclick=edit(this);></td>
+              <td><input type= "button" value="8" onclick=edit(this);></td>
+            　<td><input type= "button" value="9" onclick=edit(this);></td>
+            　<td><input type= "button" value="*" onclick=calculation(this);></td>
            </tr>
           
            <tr>
-            　<td><input type= "button" value="4" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="5" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="6" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="-" onclick="get_calc(this)"></td>
+            　<td><input type= "button" value="4" onclick=edit(this);></td>
+            　<td><input type= "button" value="5" onclick=edit(this);></td>
+            　<td><input type= "button" value="6" onclick=edit(this);></td>
+            　<td><input type= "button" value="-" onclick=calculation(this);></td>
            </tr>
           
            <tr>
-            　<td><input type= "button" value="1" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="2" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="3" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="+" onclick="get_calc(this)"></td>
+            　<td><input type= "button" value="1" onclick=edit(this);></td>
+            　<td><input type= "button" value="2" onclick=edit(this);></td>
+            　<td><input type= "button" value="3" onclick=edit(this);></td>
+            　<td><input type= "button" value="+" onclick=calculation(this);></td>
            </tr>
           
            <tr>
-            　<td><input type= "button" value="0" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="00" onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="." onclick="get_calc(this)"></td>
-            　<td><input type= "button" value="=" onclick="get_calc(this)"></td>
+            　<td><input type= "button" value="0" onclick=edit(this);></td>
+            　<td><input type= "button" value="00" onclick=edit(this);></td>
+            　<td><input type= "button" value="." onclick=edit(this);></td>
+            　<td><input type= "button" value="=" onclick=calc();></td>
            </tr>
           </table>
          </form>
